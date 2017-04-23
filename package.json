@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "etch": "^0.12.2",
-    "node-pty": "^0.6.3",
+    "node-pty": "^0.6.4",
     "resize-observer-polyfill": "^1.4.2",
     "xterm": "^2.5.0"
   },
