@@ -1,20 +1,15 @@
+# TODO: npm test when Atom stable is released with docks
 dependencies:
   override:
-    - curl -L https://atom.io/download/deb -o atom-amd64.deb
-    - sudo dpkg --install atom-amd64.deb || true
-    - sudo apt-get update
-    - sudo apt-get -f install
-    - node --version
-    - npm --version
-    - atom --version
-    - npm prune
-    - npm install
-    - apm rebuild
+    - curl -s -O https://gist.githubusercontent.com/steelbrain/4b75d17dd1b27d85e30ea058d31a802e/raw/1083ebab96ade7b1ca07294d52706c8a6c7880a8/build-package.sh
+    - chmod u+x build-package.sh
 
 test:
   override:
-    - npm test
+    - ./build-package.sh
 
 machine:
-  node:
-    version: 7
+  environment:
+    ATOM_CHANNEL: "beta"
+    ATOM_LINT_WITH_BUNDLED_NODE: "true"
+    APM_TEST_PACKAGES: ""
