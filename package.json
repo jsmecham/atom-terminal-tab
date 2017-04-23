@@ -2,7 +2,7 @@
   "name": "atom-terminal-tab",
   "main": "./lib/terminal",
   "version": "0.1.0",
-  "description": "A simple Terminal for Atom.",
+  "description": "A simple terminal for panes and docks.",
   "author": {
     "name": "Justin Mecham",
     "email": "justin@mecham.me",
