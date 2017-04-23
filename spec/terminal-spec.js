@@ -21,7 +21,7 @@ describe('Terminal', () => {
     it('opens a new terminal', () => {
 
       // Ensure that the terminal view element is not present in the workspace.
-      expect(workspaceElement.querySelector('.terminal-view')).not.toExist();
+      expect(workspaceElement.querySelector('terminal-view')).not.toExist();
 
       atom.commands.dispatch(workspaceElement, 'terminal:open');
 
@@ -31,7 +31,7 @@ describe('Terminal', () => {
 
       runs(() => {
         // Ensure that the terminal view element is present in the workspace.
-        let terminalViewElement = workspaceElement.querySelector('.terminal-view');
+        let terminalViewElement = workspaceElement.querySelector('terminal-view');
         expect(terminalViewElement).toExist();
 
         // Ensure that the bottom dock is visible.
