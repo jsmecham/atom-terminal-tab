@@ -4,4 +4,4 @@ A simple terminal for Atom that is based on the excellent [Xterm.js](http://xter
 
 ## Demo
 
-![Terminal Demo](demo.gif)
+![Terminal Demo](https://raw.githubusercontent.com/jsmecham/atom-terminal-tab/master/demo.gif)
