@@ -1,0 +1,36 @@
+{
+  "name": "atom-terminal-tab",
+  "main": "./lib/terminal",
+  "version": "0.0.0",
+  "description": "A simple Terminal for Atom.",
+  "author": {
+    "name": "Justin Mecham",
+    "email": "justin@mecham.me",
+    "url": "http://justin.mecham.me"
+  },
+  "keywords": [
+    "command",
+    "console",
+    "prompt",
+    "pty",
+    "terminal",
+    "term",
+    "tty",
+    "xterm"
+  ],
+  "homepage": "https://atom.io/packages/atom-terminal-tab",
+  "repository": "https://github.com/jsmecham/atom-terminal-tab",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.16.0 <2.0.0"
+  },
+  "dependencies": {
+    "etch": "^0.12.2",
+    "node-pty": "^0.6.3",
+    "resize-observer-polyfill": "^1.4.2",
+    "xterm": "^2.5.0"
+  },
+  "activationCommands": {
+    "atom-workspace": "terminal:open"
+  }
+}

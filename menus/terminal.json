@@ -1,0 +1,18 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Terminal",
+          "submenu": [
+            {
+              "label": "Open Terminal",
+              "command": "terminal:open"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
