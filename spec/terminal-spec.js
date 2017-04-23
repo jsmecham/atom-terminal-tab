@@ -13,7 +13,7 @@ describe('Terminal', () => {
 
   beforeEach(() => {
     workspaceElement = atom.views.getView(atom.workspace);
-    activationPromise = atom.packages.activatePackage('terminal');
+    activationPromise = atom.packages.activatePackage('atom-terminal-tab');
   });
 
   describe('when the terminal:open event is triggered', () => {
