@@ -1,7 +1,7 @@
 {
   "name": "atom-terminal-tab",
   "main": "./lib/terminal",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A simple Terminal for Atom.",
   "author": {
     "name": "Justin Mecham",
