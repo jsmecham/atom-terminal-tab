@@ -8,6 +8,10 @@
     "email": "justin@mecham.me",
     "url": "http://justin.mecham.me"
   },
+  "private": true,
+  "scripts": {
+    "test": "apm test"
+  },
   "keywords": [
     "command",
     "console",
