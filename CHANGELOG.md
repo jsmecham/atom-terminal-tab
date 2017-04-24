@@ -1,3 +1,7 @@
+## 0.2.0
+
+* Added support for serializing and deserializing open terminals when closing and reopening Atom windows.
+
 ## 0.1.3
 
 * Fixed launching of terminals in windows without projects.

@@ -34,8 +34,8 @@
     "resize-observer-polyfill": "^1.4.2",
     "xterm": "^2.5.0"
   },
-  "activationCommands": {
-    "atom-workspace": "terminal:open"
+  "deserializers": {
+    "TerminalView": "deserializeTerminalView"
   },
   "eslintConfig": {
     "env": {
