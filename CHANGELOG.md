@@ -1,3 +1,7 @@
+## 0.1.2
+
+* Added configuration for ESLint.
+
 ## 0.1.1
 
 * Updated node-pty to 0.6.4.
