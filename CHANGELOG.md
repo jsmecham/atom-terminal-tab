@@ -1,6 +1,10 @@
 ## 0.1.2
 
 * Added configuration for ESLint.
+* Added configuration for CircleCI.
+* Deferred loading of TerminalView for faster package activation.
+* Changed TerminalView to use a custom element (`<terminal-view/>`).
+* Changed protocol to use the proper package name (`atom-terminal-tab`) to avoid conflicts.
 
 ## 0.1.1
 
