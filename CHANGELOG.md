@@ -1,3 +1,7 @@
+## 0.1.3
+
+* Fixed launching of terminals in windows without projects.
+
 ## 0.1.2
 
 * Added configuration for ESLint.
