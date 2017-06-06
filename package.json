@@ -1,7 +1,7 @@
 {
   "name": "atom-terminal-tab",
   "main": "./lib/terminal",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A simple terminal for panes and docks.",
   "author": {
     "name": "Justin Mecham",
@@ -29,10 +29,10 @@
     "atom": ">=1.16.0 <2.0.0"
   },
   "dependencies": {
-    "etch": "^0.12.2",
-    "node-pty": "^0.6.4",
+    "etch": "^0.12.4",
+    "node-pty": "^0.6.6",
     "resize-observer-polyfill": "^1.4.2",
-    "xterm": "^2.5.0"
+    "xterm": "^2.6.0"
   },
   "deserializers": {
     "TerminalView": "deserializeTerminalView"
