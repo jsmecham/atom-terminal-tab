@@ -1,6 +1,7 @@
 ## 0.2.1
 
 * Fixed the scrollbar position and background color.
+* Fixed the focus warning that would pop up periodically.
 
 ## 0.2.0
 
