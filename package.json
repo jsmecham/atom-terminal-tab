@@ -30,9 +30,9 @@
   },
   "dependencies": {
     "etch": "^0.12.4",
-    "node-pty": "^0.6.6",
+    "node-pty": "^0.6.8",
     "resize-observer-polyfill": "^1.4.2",
-    "xterm": "^2.6.0"
+    "xterm": "^2.7.0"
   },
   "deserializers": {
     "TerminalView": "deserializeTerminalView"
