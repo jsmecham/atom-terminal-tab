@@ -1,3 +1,7 @@
+## 0.2.1
+
+* Fixed the scrollbar position and background color.
+
 ## 0.2.0
 
 * Added support for serializing and deserializing open terminals when closing and reopening Atom windows.
