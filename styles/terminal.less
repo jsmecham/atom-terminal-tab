@@ -2,6 +2,13 @@
 @import "syntax-variables";
 @import "xterm";
 
+.ui-syntax-color() { @syntax-background-color: hsl(198,24%,20%); } .ui-syntax-color(); // fallback color
+@ui-syntax-color: @syntax-background-color;
+
+.tab-bar .tab.active[data-type$="TerminalView"] {
+  color: @tab-text-color-editor;
+  background-color: @tab-background-color-editor; // Match syntax background color
+}
 
 terminal-view {
   display: -webkit-flex;
@@ -14,8 +21,9 @@ terminal-view {
     flex: 1;
     width: 100%;
     height: 100%;
-    font-family: Menlo, Consolas, Monaco, 'DejaVu Sans Mono', monospace;
-    font-size: 12px;
+    font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+    font-size: 14px;
+    line-height: 1.5;
 
     .xterm-viewport {
       width: 100%;
@@ -30,11 +38,11 @@ terminal-view {
     }
 
     &.terminal {
-      background-color: @syntax-bg;
-      color: @mono-1;
+      background-color: @syntax-background-color;
+      color: @syntax-text-color;
 
       .xterm-viewport {
-        background-color: @syntax-bg;
+        background-color: @syntax-background-color;
       }
 
       .xterm-rows {
@@ -50,51 +58,51 @@ terminal-view {
       }
 
       .xterm-color-1 {
-          color: @hue-5; //red
+          color: @syntax-color-variable; //red
       }
 
       .xterm-bg-color-1 {
-          background-color: @hue-5; //red
+          background-color: @syntax-color-variable; //red
       }
 
       .xterm-color-2 {
-          color: @hue-4; //green
+          color: @syntax-color-snippet; //green
       }
 
       .xterm-bg-color-2 {
-          background-color: @hue-4; //green
+          background-color: @syntax-color-snippet; //green
       }
 
       .xterm-color-3 {
-          color: @hue-6; //yellow (orange)
+          color: @syntax-color-constant; //yellow (orange)
       }
 
       .xterm-bg-color-3 {
-          background-color: @hue-6; //yellow (orange)
+          background-color: @syntax-color-constant; //yellow (orange)
       }
 
       .xterm-color-4 {
-          color: @hue-2; //blue
+          color: @syntax-color-function; //blue
       }
 
       .xterm-bg-color-4 {
-          background-color: @hue-2; //blue
+          background-color: @syntax-color-function; //blue
       }
 
       .xterm-color-5 {
-          color: @hue-3; //purple
+          color: @syntax-color-keyword; //purple
       }
 
       .xterm-bg-color-5 {
-          background-color: @hue-3; //purple
+          background-color: @syntax-color-keyword; //purple
       }
 
       .xterm-color-6 {
-          color: @hue-1; //cyan
+          color: @syntax-color-class; //cyan
       }
 
       .xterm-bg-color-6 {
-          background-color: @hue-1; //cyan
+          background-color: @syntax-color-class; //cyan
       }
 
       .xterm-color-7 {
@@ -114,51 +122,51 @@ terminal-view {
       }
 
       .xterm-color-9 {
-          color: @hue-5; //red
+          color: @syntax-color-variable; //red
       }
 
       .xterm-bg-color-9 {
-          background-color: @hue-5; //red
+          background-color: @syntax-color-variable; //red
       }
 
       .xterm-color-10 {
-          color: @hue-4; //green
+          color: @syntax-color-snippet; //green
       }
 
       .xterm-bg-color-10 {
-          background-color: @hue-4; //green
+          background-color: @syntax-color-snippet; //green
       }
 
       .xterm-color-11 {
-          color: @hue-6; //yellow (orange)
+          color: @syntax-color-constant; //yellow (orange)
       }
 
       .xterm-bg-color-11 {
-          background-color: @hue-6; //yellow (orange)
+          background-color: @syntax-color-constant; //yellow (orange)
       }
 
       .xterm-color-12 {
-          color: @hue-2; //blue
+          color: @syntax-color-function; //blue
       }
 
       .xterm-bg-color-12 {
-          background-color: @hue-2; //blue
+          background-color: @syntax-color-function; //blue
       }
 
       .xterm-color-13 {
-          color: @hue-3; //purple
+          color: @syntax-color-keyword; //purple
       }
 
       .xterm-bg-color-13 {
-          background-color: @hue-3; //purple
+          background-color: @syntax-color-keyword; //purple
       }
 
       .xterm-color-14 {
-          color: @hue-1; //cyan
+          color: @syntax-color-class; //cyan
       }
 
       .xterm-bg-color-14 {
-          background-color: @hue-1; //cyan
+          background-color: @syntax-color-class; //cyan
       }
 
       .xterm-color-15 {
