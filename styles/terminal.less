@@ -45,6 +45,18 @@ terminal-view {
         background-color: @syntax-background-color;
       }
 
+      &.focus {
+        .terminal-cursor:not(.xterm-cursor-style-underline):not(.xterm-cursor-style-bar) {
+          background-color: @syntax-text-color;
+        }
+      }
+
+      &:not(.focus) .terminal-cursor {
+        outline: 1px solid @syntax-text-color;
+        outline-offset: -1px;
+        background-color: transparent;
+      }
+
       .xterm-rows {
         padding-left: 14px;
       }
