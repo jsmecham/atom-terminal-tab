@@ -1,4 +1,8 @@
-## 0.2.1
+## 0.3.0
+
+* Added support for inheriting styles from the current theme.
+
+## 0.2.1, 0.2.2
 
 * Fixed the scrollbar position and background color.
 * Fixed the focus warning that would pop up periodically.
