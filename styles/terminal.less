@@ -5,11 +5,6 @@
 .ui-syntax-color() { @syntax-background-color: hsl(198,24%,20%); } .ui-syntax-color(); // fallback color
 @ui-syntax-color: @syntax-background-color;
 
-.tab-bar .tab.active[data-type$="TerminalView"] {
-  color: @tab-text-color-editor;
-  background-color: @tab-background-color-editor; // Match syntax background color
-}
-
 terminal-view {
   display: -webkit-flex;
   flex-direction: column;
