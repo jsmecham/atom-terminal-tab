@@ -29,10 +29,10 @@
     "atom": ">=1.16.0 <2.0.0"
   },
   "dependencies": {
-    "etch": "^0.12.4",
-    "node-pty": "^0.6.8",
-    "resize-observer-polyfill": "^1.4.2",
-    "xterm": "^2.7.0"
+    "etch": "^0.12.7",
+    "node-pty": "^0.7.3",
+    "resize-observer-polyfill": "^1.5.0",
+    "xterm": "^2.9.2"
   },
   "deserializers": {
     "TerminalView": "deserializeTerminalView"
