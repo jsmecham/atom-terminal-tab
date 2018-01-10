@@ -22,7 +22,7 @@
     "tty",
     "xterm"
   ],
-  "homepage": "https://atom.io/packages/atom-terminal-tab",
+  "homepage": "https://atom.io/packages/terminal-tab",
   "repository": "https://github.com/jsmecham/atom-terminal-tab",
   "license": "MIT",
   "engines": {
