@@ -3,6 +3,7 @@
 * Added support for inheriting styles from the current theme.
 * Removed our bundled copy of the Xterm styles. In order to keep more up-to-date with changes, we now import the styles directly from the package.
 * Removed dependency on etch.
+* Added support for unsetting inherited environment variables in the terminal instance. This unsets `NODE_ENV`, by default.
 
 ## 0.2.1, 0.2.2
 
