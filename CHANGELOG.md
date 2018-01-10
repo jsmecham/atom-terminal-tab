@@ -2,6 +2,7 @@
 
 * Added support for inheriting styles from the current theme.
 * Removed our bundled copy of the Xterm styles. In order to keep more up-to-date with changes, we now import the styles directly from the package.
+* Removed dependency on etch.
 
 ## 0.2.1, 0.2.2
 
