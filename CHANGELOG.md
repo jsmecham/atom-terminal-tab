@@ -1,3 +1,7 @@
+## 0.3.4
+
+* Fixed issues caused by renaming the package to `terminal-tab`.
+
 ## 0.3.3
 
 * Renamed the package to `terminal-tab`.
