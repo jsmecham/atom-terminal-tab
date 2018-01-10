@@ -1,6 +1,6 @@
 {
   "name": "terminal-tab",
-  "main": "./lib/terminal",
+  "main": "./lib/main",
   "version": "0.4.0",
   "description": "A simple terminal for panes and docks.",
   "author": {
@@ -34,7 +34,7 @@
     "xterm": "^2.9.2"
   },
   "deserializers": {
-    "TerminalView": "deserializeTerminalView"
+    "TerminalSession": "deserializeTerminalSession"
   },
   "eslintConfig": {
     "env": {
