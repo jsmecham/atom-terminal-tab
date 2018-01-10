@@ -1,5 +1,5 @@
 {
-  "name": "atom-terminal-tab",
+  "name": "terminal-tab",
   "main": "./lib/terminal",
   "version": "0.3.2",
   "description": "A simple terminal for panes and docks.",
