@@ -1,3 +1,7 @@
+## 0.3.2
+
+* Added support for configuring the shell that is launched (thanks @daviwil).
+
 ## 0.3.1
 
 * Added a conditional around environment sanitation to prevent Atom freezing on startup and to fix CI (thanks @daviwil).
