@@ -1,14 +1,15 @@
-'use babel';
+/** @babel */
 
-import Terminal from '../lib/terminal';
-import TerminalView from '../lib/terminal-view';
+import TerminalTab from '../lib/main';
+import TerminalElement from '../lib/terminal-element';
+import TerminalSession from '../lib/terminal-session';
 
 // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 //
 // To run a specific `it` or `describe` block add an `f` to the front (e.g. `fit`
 // or `fdescribe`). Remove the `f` to unfocus the block.
 
-describe('Terminal', () => {
+describe('TerminalTab', () => {
   let workspaceElement, activationPromise;
 
   beforeEach(() => {
@@ -31,8 +32,8 @@ describe('Terminal', () => {
 
       runs(() => {
         // Ensure that the terminal view element is present in the workspace.
-        let terminalViewElement = workspaceElement.querySelector('terminal-view');
-        expect(terminalViewElement).toExist();
+        let terminalElement = workspaceElement.querySelector('terminal-view');
+        expect(terminalElement).toExist();
 
         // Ensure that the bottom dock is visible.
         let bottomDock = atom.workspace.getBottomDock();
@@ -40,8 +41,8 @@ describe('Terminal', () => {
 
         // Ensure that the terminal view is present in the bottom dock's pane.
         let activePaneItem = bottomDock.getActivePaneItem();
-        expect(activePaneItem).toBeInstanceOf(TerminalView);
-        expect(activePaneItem.element).toEqual(terminalViewElement);
+        expect(activePaneItem).toBeInstanceOf(TerminalSession);
+        expect(activePaneItem.element).toEqual(terminalElement);
       });
 
     });
