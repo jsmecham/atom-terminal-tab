@@ -9,35 +9,10 @@
 @ui-syntax-color: @syntax-background-color;
 
 terminal-view {
-  display: -webkit-flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: nowrap;
-
   .xterm {
-    display: -webkit-flex;
-    flex: 1;
-    width: 100%;
-    height: 100%;
     font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
     font-size: 14px;
-    line-height: 1.5;
-
-    .xterm-viewport {
-      width: 100%;
-
-      &::-webkit-scrollbar-thumb {
-        border-color: transparent;
-      }
-
-      &::-webkit-scrollbar-track {
-        background-color: #000;
-      }
-    }
-
-    .xterm-rows {
-      padding-left: 14px;
-    }
+    line-height: normal;
   }
 
   &.themed .terminal {
@@ -61,139 +36,139 @@ terminal-view {
     }
 
     .xterm-color-0 {
-        color: #2e3436;
+      color: #2e3436;
     }
 
     .xterm-bg-color-0 {
-        background-color: #2e3436;
+      background-color: #2e3436;
     }
 
     .xterm-color-1 {
-        color: @syntax-color-variable; //red
+      color: @syntax-color-variable; // Red
     }
 
     .xterm-bg-color-1 {
-        background-color: @syntax-color-variable; //red
+      background-color: @syntax-color-variable; // Red
     }
 
     .xterm-color-2 {
-        color: @syntax-color-snippet; //green
+      color: @syntax-color-snippet; // Green
     }
 
     .xterm-bg-color-2 {
-        background-color: @syntax-color-snippet; //green
+      background-color: @syntax-color-snippet; // Green
     }
 
     .xterm-color-3 {
-        color: @syntax-color-constant; //yellow (orange)
+      color: @syntax-color-constant; // Yellow (Orange)
     }
 
     .xterm-bg-color-3 {
-        background-color: @syntax-color-constant; //yellow (orange)
+      background-color: @syntax-color-constant; // Yellow (Orange)
     }
 
     .xterm-color-4 {
-        color: @syntax-color-function; //blue
+      color: @syntax-color-function; // Blue
     }
 
     .xterm-bg-color-4 {
-        background-color: @syntax-color-function; //blue
+      background-color: @syntax-color-function; // Blue
     }
 
     .xterm-color-5 {
-        color: @syntax-color-keyword; //purple
+      color: @syntax-color-keyword; // Purple
     }
 
     .xterm-bg-color-5 {
-        background-color: @syntax-color-keyword; //purple
+      background-color: @syntax-color-keyword; // Purple
     }
 
     .xterm-color-6 {
-        color: @syntax-color-class; //cyan
+      color: @syntax-color-class; // Cyan
     }
 
     .xterm-bg-color-6 {
-        background-color: @syntax-color-class; //cyan
+      background-color: @syntax-color-class; // Cyan
     }
 
     .xterm-color-7 {
-        color: #d3d7cf;
+      color: #d3d7cf;
     }
 
     .xterm-bg-color-7 {
-        background-color: #d3d7cf;
+      background-color: #d3d7cf;
     }
 
     .xterm-color-8 {
-        color: #555753;
+      color: #555753;
     }
 
     .xterm-bg-color-8 {
-        background-color: #555753;
+      background-color: #555753;
     }
 
     .xterm-color-9 {
-        color: @syntax-color-variable; //red
+      color: @syntax-color-variable; // Red
     }
 
     .xterm-bg-color-9 {
-        background-color: @syntax-color-variable; //red
+      background-color: @syntax-color-variable; // Red
     }
 
     .xterm-color-10 {
-        color: @syntax-color-snippet; //green
+      color: @syntax-color-snippet; // Green
     }
 
     .xterm-bg-color-10 {
-        background-color: @syntax-color-snippet; //green
+      background-color: @syntax-color-snippet; // Green
     }
 
     .xterm-color-11 {
-        color: @syntax-color-constant; //yellow (orange)
+      color: @syntax-color-constant; // Yellow (Orange)
     }
 
     .xterm-bg-color-11 {
-        background-color: @syntax-color-constant; //yellow (orange)
+      background-color: @syntax-color-constant; // Yellow (Orange)
     }
 
     .xterm-color-12 {
-        color: @syntax-color-function; //blue
+      color: @syntax-color-function; // Blue
     }
 
     .xterm-bg-color-12 {
-        background-color: @syntax-color-function; //blue
+      background-color: @syntax-color-function; // Blue
     }
 
     .xterm-color-13 {
-        color: @syntax-color-keyword; //purple
+      color: @syntax-color-keyword; // Purple
     }
 
     .xterm-bg-color-13 {
-        background-color: @syntax-color-keyword; //purple
+      background-color: @syntax-color-keyword; // Purple
     }
 
     .xterm-color-14 {
-        color: @syntax-color-class; //cyan
+      color: @syntax-color-class; // Cyan
     }
 
     .xterm-bg-color-14 {
-        background-color: @syntax-color-class; //cyan
+      background-color: @syntax-color-class; // Cyan
     }
 
     .xterm-color-15 {
-        color: #eeeeec;
+      color: #eeeeec;
     }
 
     .xterm-bg-color-15 {
-        background-color: #eeeeec;
+      background-color: #eeeeec;
     }
 
     .xterm-color-16 {
-        color: #000000;
+      color: #000000;
     }
 
     .xterm-bg-color-16 {
-        background-color: #000000;
+      background-color: #000000;
     }
   }
 }
