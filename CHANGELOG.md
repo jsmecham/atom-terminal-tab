@@ -1,3 +1,7 @@
+## 0.3.3
+
+* Renamed the package to `terminal-tab`.
+
 ## 0.3.2
 
 * Added support for configuring the shell that is launched (thanks @daviwil).
