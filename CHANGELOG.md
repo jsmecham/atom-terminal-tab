@@ -1,3 +1,7 @@
+## 0.3.1
+
+* Added a conditional around environment sanitation to prevent Atom freezing on startup and to fix CI (thanks @daviwil).
+
 ## 0.3.0
 
 * Added support for inheriting styles from the current theme.
