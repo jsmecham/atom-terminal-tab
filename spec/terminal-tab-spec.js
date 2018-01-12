@@ -1,7 +1,5 @@
 /** @babel */
 
-import TerminalTab from '../lib/main';
-import TerminalElement from '../lib/terminal-element';
 import TerminalSession from '../lib/terminal-session';
 
 // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
@@ -42,7 +40,8 @@ describe('TerminalTab', () => {
         // Ensure that the terminal view is present in the bottom dock's pane.
         let activePaneItem = bottomDock.getActivePaneItem();
         expect(activePaneItem).toBeInstanceOf(TerminalSession);
-        expect(activePaneItem.element).toEqual(terminalElement);
+        let terminalView = atom.views.getView(activePaneItem);
+        expect(terminalView).toEqual(terminalElement);
       });
 
     });
