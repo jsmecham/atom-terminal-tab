@@ -29,7 +29,7 @@
     "atom": ">=1.16.0 <2.0.0"
   },
   "dependencies": {
-    "node-pty": "^0.7.3",
+    "node-pty-prebuilt": "^0.7.3",
     "resize-observer-polyfill": "^1.5.0",
     "xterm": "^2.9.2"
   },
