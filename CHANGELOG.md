@@ -1,3 +1,9 @@
+## 0.4.0
+
+* Switched to node-pty-prebuilt which eliminates the compilation step on install! (thanks @daviwil).
+* Added an option to configure where terminal tabs get opened by default (thanks @HebaruSan).
+* Use active file's project folder as initial working path for new terminal tabs (thanks @HebaruSan).
+
 ## 0.3.4
 
 * Fixed issues caused by renaming the package to `terminal-tab`.
