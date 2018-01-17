@@ -30,8 +30,8 @@ describe('TerminalTab', () => {
 
       runs(() => {
         // Ensure that the terminal view element is present in the workspace.
-        let terminalElement = workspaceElement.querySelector('terminal-view');
-        expect(terminalElement).toExist();
+        let terminalViewElement = workspaceElement.querySelector('terminal-view');
+        expect(terminalViewElement).toExist();
 
         // Ensure that the bottom dock is visible.
         let bottomDock = atom.workspace.getBottomDock();
@@ -41,7 +41,7 @@ describe('TerminalTab', () => {
         let activePaneItem = bottomDock.getActivePaneItem();
         expect(activePaneItem).toBeInstanceOf(TerminalSession);
         let terminalView = atom.views.getView(activePaneItem);
-        expect(terminalView).toEqual(terminalElement);
+        expect(terminalView).toEqual(terminalViewElement);
       });
 
     });
