@@ -30,7 +30,7 @@ describe('TerminalTab', () => {
 
       runs(() => {
         // Ensure that the terminal view element is present in the workspace.
-        let terminalViewElement = workspaceElement.querySelector('terminal-view');
+        const terminalViewElement = workspaceElement.querySelector('terminal-view');
         expect(terminalViewElement).toExist();
 
         // Ensure that the bottom dock is visible.
