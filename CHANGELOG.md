@@ -1,3 +1,8 @@
+## Unreleased
+
+* Prevented duplicate calls to `applyThemeStyles` when opening new tabs.
+* Reimplemented etch on `TerminalView`.
+
 ## 0.4.0
 
 * Switched to node-pty-prebuilt which eliminates the compilation step on install! (thanks @daviwil).

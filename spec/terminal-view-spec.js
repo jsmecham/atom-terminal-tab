@@ -8,10 +8,9 @@ describe('TerminalView', () => {
 
   beforeEach(() => {
     testSession = new TerminalSession();
-    terminalView = new TerminalView();
-    terminalView.initialize(testSession);
+    terminalView = new TerminalView(testSession);
 
-    jasmine.attachToDOM(terminalView);
+    jasmine.attachToDOM(terminalView.element);
   });
 
   afterEach(() => {
@@ -22,10 +21,10 @@ describe('TerminalView', () => {
   describe('focus', () => {
 
     it('transfers focus to xterm when focused', () => {
-      const xtermTextareaElement = terminalView.querySelector('.xterm-helper-textarea');
+      const xtermTextareaElement = terminalView.element.querySelector('.xterm-helper-textarea');
       expect(xtermTextareaElement).not.toBe(null);
 
-      terminalView.focus();
+      terminalView.element.focus();
       expect(xtermTextareaElement).toHaveFocus();
     });
 
@@ -34,7 +33,7 @@ describe('TerminalView', () => {
   describe('xterm', () => {
 
     it('element is present in the dom', () => {
-      let xtermElement = terminalView.querySelector('.xterm');
+      let xtermElement = terminalView.element.querySelector('.xterm');
       expect(xtermElement).toExist();
     });
 
