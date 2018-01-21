@@ -2,6 +2,7 @@
 
 * Prevented duplicate calls to `applyThemeStyles` when opening new tabs.
 * Reimplemented etch on `TerminalView`.
+* Extracted business logic from `TerminalView` into a new `TerminalSession` model.
 
 ## 0.4.0
 
