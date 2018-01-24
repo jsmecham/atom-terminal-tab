@@ -72,5 +72,8 @@
         "always"
       ]
     }
+  },
+  "devDependencies": {
+    "rgb-hex": "^2.1.0"
   }
 }
