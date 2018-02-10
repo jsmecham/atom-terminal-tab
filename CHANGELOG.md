@@ -3,7 +3,7 @@
 * Prevented duplicate calls to `applyThemeStyles` when opening new tabs.
 * Reimplemented etch on `TerminalView`.
 * Extracted business logic from `TerminalView` into a new `TerminalSession` model.
-* Updated to Xterm 3.
+* Updated to Xterm 3.1.
 * Refactored the theme matching logic into a new `ThemeMatcher` class, which creates a DOM tree to read Atom styles from using `getComputedStyle()`.
 
 ## 0.4.0
