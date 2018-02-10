@@ -5,6 +5,7 @@
 * Extracted business logic from `TerminalView` into a new `TerminalSession` model.
 * Updated to Xterm 3.1.
 * Refactored the theme matching logic into a new `ThemeMatcher` class, which creates a DOM tree to read Atom styles from using `getComputedStyle()`.
+* Added spacing and proper sizing logic to ensure that the terminal consumes all available space in its container.
 
 ## 0.4.0
 
