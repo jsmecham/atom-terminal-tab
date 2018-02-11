@@ -11,6 +11,7 @@ describe('TerminalView', () => {
     terminalView = new TerminalView(testSession);
 
     jasmine.attachToDOM(terminalView.element);
+    terminalView.openTerminal();
   });
 
   afterEach(() => {
