@@ -31,6 +31,7 @@
   "dependencies": {
     "etch": "^0.12.7",
     "node-pty-prebuilt": "^0.7.3",
+    "rgb-hex": "^2.1.0",
     "resize-observer-polyfill": "^1.5.0",
     "xterm": "^3.1.0"
   },
@@ -72,8 +73,5 @@
         "always"
       ]
     }
-  },
-  "devDependencies": {
-    "rgb-hex": "^2.1.0"
   }
 }
