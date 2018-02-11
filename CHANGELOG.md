@@ -1,4 +1,4 @@
-## Unreleased
+## 0.5.0
 
 * Prevented duplicate calls to `applyThemeStyles` when opening new tabs.
 * Reimplemented etch on `TerminalView`.
