@@ -1,7 +1,7 @@
 /** @babel */
 
 import TerminalSession from '../lib/terminal-session';
-import Xterm from 'xterm';
+import { Terminal as Xterm } from 'xterm';
 
 describe('TerminalSession', () => {
 
