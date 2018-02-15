@@ -1,4 +1,4 @@
-## Unreleased
+## 0.5.1
 
 * Improved serialization of terminal sessions so that the configuration in effect when a session is opened (i.e. shell path, arguments, etc) gets restored properly when reopening Atom.
 
