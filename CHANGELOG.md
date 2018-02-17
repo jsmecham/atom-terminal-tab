@@ -1,3 +1,7 @@
+## 0.5.3
+
+* Fixed serialization of sanitized environment variables.
+
 ## 0.5.2
 
 * Fixed serialization of shell arguments.
