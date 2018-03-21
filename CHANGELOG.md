@@ -1,3 +1,7 @@
+## 0.5.5
+
+* Fixed an issue that prevented shell-related configuration (shell path, arguments and sanitized environment keys) from being used.
+
 ## 0.5.4
 
 * Added support for specifying a custom font family.
