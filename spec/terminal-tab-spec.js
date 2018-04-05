@@ -15,6 +15,12 @@ describe('TerminalTab', () => {
     activationPromise = atom.packages.activatePackage('terminal-tab');
   });
 
+  afterEach(() => {
+    waitsForPromise(() => {
+      return atom.packages.deactivatePackage('terminal-tab')
+    });
+  });
+
   describe('when the terminal:open event is triggered', () => {
 
     it('opens a new terminal', () => {
