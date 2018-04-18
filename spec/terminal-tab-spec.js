@@ -22,11 +22,15 @@ describe('TerminalTab', () => {
       // Ensure that the terminal view element is not present in the workspace.
       expect(workspaceElement.querySelector('terminal-view')).not.toExist();
 
-      atom.commands.dispatch(workspaceElement, 'terminal:open');
+      let terminalPromise = atom.commands.dispatch(workspaceElement, 'terminal:open');
 
       waitsForPromise(() => {
         return activationPromise;
       });
+
+      waitsForPromise(() => {
+        return terminalPromise;
+      })
 
       runs(() => {
         // Ensure that the terminal view element is present in the workspace.
