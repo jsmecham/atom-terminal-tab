@@ -1,3 +1,10 @@
+## 0.5.6
+
+* Fixed a race condition while opening terminals in tests (thanks @edjubuh).
+* Include the initial working directory in serialized session state.
+* Eliminated a workspace lookup on pty-based exits.
+* Removed the polyfill for ResizeObserver and set the required Atom version to 1.19+ to ensure the presence of native support.
+
 ## 0.5.5
 
 * Fixed an issue that prevented shell-related configuration (shell path, arguments and sanitized environment keys) from being used.
