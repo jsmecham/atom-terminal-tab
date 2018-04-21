@@ -26,13 +26,12 @@
   "repository": "https://github.com/jsmecham/atom-terminal-tab",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.16.0 <2.0.0"
+    "atom": ">=1.19.0 <2.0.0"
   },
   "dependencies": {
     "etch": "^0.12.7",
     "node-pty-prebuilt": "^0.7.3",
     "rgb-hex": "^2.1.0",
-    "resize-observer-polyfill": "^1.5.0",
     "xterm": "^3.1.0"
   },
   "deserializers": {
