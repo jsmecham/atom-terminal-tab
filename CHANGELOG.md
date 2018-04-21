@@ -1,5 +1,6 @@
 ## master
 
+* Include the initial working directory in serialized session state.
 * Eliminated a workspace lookup on pty-based exits.
 * Removed the polyfill for ResizeObserver and set the required Atom version to 1.19+ to ensure the presence of native support.
 
