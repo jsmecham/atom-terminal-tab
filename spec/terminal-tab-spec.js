@@ -125,7 +125,7 @@ describe('TerminalTab', () => {
   });
 
   describe('when the terminal:unfocus event is triggered', () => {
-    fit ('returns focus to the previously active panel', () => {
+    it ('returns focus to the previously active panel', () => {
         let originalActivePane = atom.workspace.getActivePane();
         let terminalView;
         terminalOpenAndWait(workspaceElement);
