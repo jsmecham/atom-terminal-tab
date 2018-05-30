@@ -1,3 +1,7 @@
+## master
+
+* Added a custom close handler.
+
 ## 0.5.6
 
 * Fixed a race condition while opening terminals in tests (thanks @edjubuh).

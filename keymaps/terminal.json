@@ -5,6 +5,7 @@
   "terminal-view": {
     "cmd-c": "terminal:copy",
     "cmd-v": "terminal:paste",
-    "cmd-k": "terminal:clear"
+    "cmd-k": "terminal:clear",
+    "cmd-w": "terminal:close"
   }
 }
