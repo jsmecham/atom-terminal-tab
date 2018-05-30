@@ -1,4 +1,4 @@
-## master
+## 0.5.7
 
 * Added a custom close handler.
 
