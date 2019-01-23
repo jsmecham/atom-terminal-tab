@@ -1,5 +1,6 @@
 ## Unreleased
 
+* Updated Etch to 0.14.0.
 * Updated Xterm.js to 3.10.1.
 * Added package-lock.json to the repository.
 * Updated CircleCI configuration for CircleCI 2.0.
