@@ -30,9 +30,9 @@
   },
   "dependencies": {
     "etch": "^0.12.7",
-    "node-pty-prebuilt": "^0.7.3",
+    "node-pty-prebuilt": "^0.7.6",
     "rgb-hex": "^2.1.0",
-    "xterm": "^3.1.0"
+    "xterm": "^3.10.1"
   },
   "deserializers": {
     "TerminalSession": "deserializeTerminalSession"

@@ -1,5 +1,7 @@
 ## Unreleased
 
+* Updated Xterm.js to 3.10.1.
+* Added package-lock.json to the repository.
 * Updated CircleCI configuration for CircleCI 2.0.
 
 ## 0.5.7
