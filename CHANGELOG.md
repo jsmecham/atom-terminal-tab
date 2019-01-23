@@ -1,3 +1,7 @@
+## Unreleased
+
+* Updated CircleCI configuration for CircleCI 2.0.
+
 ## 0.5.7
 
 * Added a custom close handler.
