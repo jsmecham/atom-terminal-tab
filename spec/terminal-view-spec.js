@@ -15,8 +15,8 @@ describe('TerminalView', () => {
   });
 
   afterEach(() => {
-    terminalView.destroy();
-    testSession.destroy();
+    terminalView.dispose();
+    testSession.dispose();
   });
 
   describe('focus', () => {

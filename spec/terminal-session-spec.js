@@ -12,7 +12,7 @@ describe('TerminalSession', () => {
   });
 
   afterEach(() => {
-    testSession.destroy();
+    testSession.dispose();
   });
 
   describe('xterm', () => {
