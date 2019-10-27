@@ -32,7 +32,8 @@
     "etch": "^0.14.0",
     "node-pty-prebuilt-multiarch": "^0.9.0",
     "rgb-hex": "^3.0.0",
-    "xterm": "^3.14.5"
+    "xterm": "^4.2.0",
+    "xterm-addon-fit": "^0.3.0"
   },
   "deserializers": {
     "TerminalSession": "deserializeTerminalSession"
