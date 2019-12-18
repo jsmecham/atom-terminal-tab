@@ -1,8 +1,17 @@
 {
-  "atom-workspace": {
+  ".platform-linux atom-workspace, .platform-win32 atom-workspace": {
+    "ctrl-shift-t": "terminal:open"
+  },
+  ".platform-darwin atom-workspace": {
     "cmd-shift-t": "terminal:open"
   },
-  "terminal-view": {
+  ".platform-linux terminal-view, .platform-win32 terminal-view": {
+    "ctrl-shitf-c": "terminal:copy",
+    "ctrl-shift-v": "terminal:paste",
+    "ctrl-shift-k": "terminal:clear",
+    "ctrl-shift-w": "terminal:close"
+  },
+  ".platform-darwin terminal-view": {
     "cmd-c": "terminal:copy",
     "cmd-v": "terminal:paste",
     "cmd-k": "terminal:clear",
