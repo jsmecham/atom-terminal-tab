@@ -38,6 +38,14 @@
   "deserializers": {
     "TerminalSession": "deserializeTerminalSession"
   },
+  "providedServices": {
+    "terminal-tab": {
+      "description": "Create terminal-tab sessions",
+      "versions": {
+        "0.5.0": "provideTerminalSession"
+      }
+    }
+  },
   "eslintConfig": {
     "env": {
       "browser": true,
